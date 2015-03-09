@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Favorites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <folders>
+    <Folder>
+      <name>super</name>
+      <favorites>
+        <Favorite>
+          <name>Module.cs</name>
+          <absolutePath>D:\Projects\Git\RadAd\WhiteBox.RadAd\WhiteBox.Kernel\Module.cs</absolutePath>
+        </Favorite>
+      </favorites>
+    </Folder>
+  </folders>
+  <favorites>
+    <Favorite>
+      <name>packages.config</name>
+      <absolutePath>D:\Projects\Git\RadAd\WhiteBox.RadAd\WhiteBox.Kernel\packages.config</absolutePath>
+    </Favorite>
+  </favorites>
+</Favorites>

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace isemin.com.Controllers
+﻿namespace isemin.com.Controllers
 {
-    using System.Reflection.Emit;
+    using System.Web.Mvc;
 
     public class HomeController : Controller
     {

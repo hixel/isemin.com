@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="isemin">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
                     <a href="#">Проекты</a>
                 </li>
                 <li>
-                    <a href="#">Документация</a>
+                    <a href="#/documentation">Документация</a>
                 </li>
                 <li>
                     <a href="#">Статьи</a>
@@ -33,7 +33,6 @@
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
-
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -47,8 +46,13 @@
         <!-- /#page-content-wrapper -->
     </div>
 
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular-animate.min.js"></script>
+
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/app")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderSection("scripts", false)
 </body>
 </html>
