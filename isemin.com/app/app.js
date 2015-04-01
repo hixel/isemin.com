@@ -8,11 +8,15 @@
                 controller: "homeController",
                 templateUrl: "/templates/home/index.html"
             })
+            .when("/projects", {
+                controller: "projectController",
+                templateUrl: "/templates/projects/index.html"
+            })
             .when("/documentation", {
                 controller: "documentationController",
                 templateUrl: "/templates/documentation/index.html"
             })
-            .otherwise({ redirectTo: "/home" });
+            .otherwise({ redirectTo: "/projects" });
     });
 
 }());

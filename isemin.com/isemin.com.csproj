@@ -180,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\controllers\project-controller.js" />
     <Content Include="app\controllers\documentation-controller.js" />
     <Content Include="app\controllers\home-controller.js" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -187,6 +188,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\avatar.png" />
+    <Content Include="Content\images\projects-preview\epayments-screen.png" />
+    <Content Include="Content\images\projects-preview\estimate-screen.png" />
+    <Content Include="Content\images\projects-preview\rappelz-screen.png" />
+    <Content Include="Content\images\projects-preview\santehniki-screen.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -992,6 +997,7 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="templates\documentation\index.html" />
     <Content Include="templates\home\index.html" />
+    <Content Include="templates\projects\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
