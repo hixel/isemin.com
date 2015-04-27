@@ -1,4 +1,5 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    angularMaps = require('angular-google-maps');
 
 gulp.task('default', []);
 

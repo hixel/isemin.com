@@ -1,6 +1,10 @@
 ﻿(function () {
 
-    var iseminApp = angular.module("isemin", ["ngRoute"]);
+    var iseminApp = angular.module("isemin", [
+        "ngRoute",
+        "uiGmapgoogle-maps",
+        "ui.bootstrap"
+    ]);
 
     iseminApp.config(function ($routeProvider) {
         $routeProvider
@@ -15,6 +19,10 @@
             .when("/documentation", {
                 controller: "documentationController",
                 templateUrl: "/templates/documentation/index.html"
+            })
+            .when("/contacts", {
+                controller: "contactController",
+                templateUrl: "/templates/contacts/index.html"
             })
             .otherwise({ redirectTo: "/projects" });
     });

@@ -21,17 +21,18 @@
                 <li>
                     <a href="#/projects">Проекты</a>
                 </li>
-                <li>
+                @*<li>
                     <a href="#/documentation">Документация</a>
                 </li>
                 <li>
                     <a href="#/articles">Статьи</a>
-                </li>
+                </li>*@
                 <li>
                     <a href="#/contacts">Контакты</a>
                 </li>
             </ul>
         </div>
+
         <!-- /#sidebar-wrapper -->
         <!-- Page Content -->
         <div id="page-content-wrapper">
@@ -43,13 +44,18 @@
                 </div>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
+        <!-- /#page-content-wrapper -->  
     </div>
 
     <script src="~/Scripts/angular.min.js"></script>
     <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular-sanitize.min.js"></script>
     <script src="~/Scripts/angular-animate.min.js"></script>
-
+    <script src="~/Scripts/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.10/angular-google-maps.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.7.0/lodash.min.js"></script>
+    
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/app")
     @Scripts.Render("~/bundles/bootstrap")

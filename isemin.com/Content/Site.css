@@ -1,5 +1,9 @@
 ﻿body {
     padding-bottom: 20px;
+    background-image: url('/Content/images/background-main.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -190,4 +194,52 @@ input[type="checkbox"].input-validation-error {
         position: relative;
         margin-right: 0;
     }
+}
+
+.angular-google-map-container {
+    height: 400px;
+}
+
+.address-block {
+    margin-top: 8px;
+}
+
+.panel-body-address-map .panel-body {
+    padding: 0px;
+}
+
+.projects-info-modal {
+    position: fixed;
+    top: 20%;
+    left: 18.5%;
+    z-index: 1050;
+    width: 80%;
+    height: 80%;
+    margin-left: -10%;
+}
+
+.email-info {
+    margin-top: 6px;
+}
+
+.phone-info {
+    margin-top: 6px;
+}
+
+div.social-icons {
+    margin: 11px 0 0 10px;
+    width: 200px;
+    height: 44px;
+}
+
+div.social-icons div {
+    background: no-repeat url('/Content/images/socials.png') 0 0;
+    float: left;
+    margin-right: 5px;
+    width: 44px;
+    height: 44px;
+}
+
+.credentials-block {
+    margin-top: 10px;
 }

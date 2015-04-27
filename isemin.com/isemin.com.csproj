@@ -180,9 +180,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\controllers\contact-controller.js" />
     <Content Include="app\controllers\project-controller.js" />
+    <Content Include="app\controllers\project-info-controller.js" />
     <Content Include="app\controllers\documentation-controller.js" />
     <Content Include="app\controllers\home-controller.js" />
+    <Content Include="Content\images\background-main.png" />
+    <Content Include="Content\images\socials.png" />
+    <Content Include="templates\projects\favorite-projects-modal.html" />
+    <Content Include="templates\projects\rappelz-modal.html" />
+    <Content Include="templates\projects\epayments-modal.html" />
+    <Content Include="templates\projects\estimate-gen-modal.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -190,6 +198,7 @@
     <Content Include="Content\images\avatar.png" />
     <Content Include="Content\images\projects-preview\epayments-screen.png" />
     <Content Include="Content\images\projects-preview\estimate-screen.png" />
+    <Content Include="Content\images\projects-preview\favorite-projects-screen.png" />
     <Content Include="Content\images\projects-preview\rappelz-screen.png" />
     <Content Include="Content\images\projects-preview\santehniki-screen.png" />
     <Content Include="favicon.ico" />
@@ -239,6 +248,7 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="package.json" />
+    <None Include="Properties\PublishProfiles\isemin.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -994,7 +1004,9 @@
     <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\ui-bootstrap-tpls-0.12.1.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="templates\contacts\index.html" />
     <Content Include="templates\documentation\index.html" />
     <Content Include="templates\home\index.html" />
     <Content Include="templates\projects\index.html" />
@@ -1033,12 +1045,6 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="Project_Readme.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\RadAd\WhiteBox.RadAd\WhiteBox.Kernel\WhiteBox.Kernel.csproj">
-      <Project>{cf789d27-aae3-4ad6-a177-30d2e22bb460}</Project>
-      <Name>WhiteBox.Kernel</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
