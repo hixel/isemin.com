@@ -17,16 +17,13 @@
                 <h4 class="avatar-name">Игорь Семин</h4>
             </div>
             <div class="clear"></div>
-            <ul class="sidebar-nav">
+            <ul class="sidebar-nav text-uppercase">
+                <li>
+                    <a href="#/aboutme">О себе</a>
+                </li>
                 <li>
                     <a href="#/projects">Проекты</a>
                 </li>
-                @*<li>
-                    <a href="#/documentation">Документация</a>
-                </li>
-                <li>
-                    <a href="#/articles">Статьи</a>
-                </li>*@
                 <li>
                     <a href="#/contacts">Контакты</a>
                 </li>
@@ -45,7 +42,7 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->  
-    </div>
+    </div> 
 
     <script src="~/Scripts/angular.min.js"></script>
     <script src="~/Scripts/angular-route.min.js"></script>
@@ -55,9 +52,26 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.10/angular-google-maps.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.7.0/lodash.min.js"></script>
-    
+    <script src="/app/app.js"></script>
+    <script src="/app/controllers/contact-controller.js"></script>
+    <script src="/app/controllers/documentation-controller.js"></script>
+    <script src="/app/controllers/home-controller.js"></script>
+    <script src="/app/controllers/project-controller.js"></script>
+    <script src="/app/controllers/project-info-controller.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-57429737-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/app")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", false)
 </body>

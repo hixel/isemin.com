@@ -12,6 +12,10 @@
                 controller: "homeController",
                 templateUrl: "/templates/home/index.html"
             })
+            .when("/aboutme", {
+                controller: "homeController",
+                templateUrl: "/templates/home/index.html"
+            })
             .when("/projects", {
                 controller: "projectController",
                 templateUrl: "/templates/projects/index.html"

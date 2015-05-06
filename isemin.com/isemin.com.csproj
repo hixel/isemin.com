@@ -186,6 +186,9 @@
     <Content Include="app\controllers\documentation-controller.js" />
     <Content Include="app\controllers\home-controller.js" />
     <Content Include="Content\images\background-main.png" />
+    <Content Include="Content\images\company\bars-group.png" />
+    <Content Include="Content\images\company\fix.png" />
+    <Content Include="Content\images\company\icl.png" />
     <Content Include="Content\images\socials.png" />
     <Content Include="templates\projects\favorite-projects-modal.html" />
     <Content Include="templates\projects\rappelz-modal.html" />
@@ -205,7 +208,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="gulpfile.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />

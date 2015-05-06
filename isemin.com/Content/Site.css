@@ -1,5 +1,13 @@
 ﻿body {
-    padding-bottom: 20px;
+    color:#222;
+    padding:0;
+    margin:0;
+    font-family:"Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.5;
+    position:relative;
+    cursor: auto;
     background-image: url('/Content/images/background-main.png');
     background-repeat: no-repeat;
     background-position: top right;
@@ -228,7 +236,7 @@ input[type="checkbox"].input-validation-error {
 
 div.social-icons {
     margin: 11px 0 0 10px;
-    width: 200px;
+    width: 250px;
     height: 44px;
 }
 
@@ -242,4 +250,45 @@ div.social-icons div {
 
 .credentials-block {
     margin-top: 10px;
+}
+
+ul.company-work li {
+    margin-top: 1.8em;
+    overflow: hidden;
+}
+
+.company-name {
+    font-size: 1.2em;
+    font-weight: bold;  
+}
+
+.work-info {
+    width: 70%;
+}
+
+.work-info h3 {
+    color: #757575;
+}
+
+p.work-info {
+    margin-top: 8px;
+}
+
+p.work-info img {
+    float: left;
+    margin: 0 18px 10px;
+}
+
+.work-period {
+    color: #000;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+.tech-name {
+    font-size: 1em;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    top: -8px;
 }

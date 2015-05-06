@@ -1,6 +1,15 @@
 ﻿<div class="panel panel-default">
     <div class="panel-body-address-map">
-        <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+        <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+            <ui-gmap-marker idkey="marker.id" coords="marker.coords">
+                <ui-gmap-window options="windowOptions" closeclick="closeClick()">
+                    <div>
+                        <p>Место работы</p>
+                        <strong>Казань, Петербургская - 52, IT Park</strong>
+                    </div>
+                </ui-gmap-window>
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
     </div>
 
     <div class="panel-footer">
@@ -13,9 +22,14 @@
         
         <div class="phone-info">
             <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-            <abbr title="Телефон для связи">+7 (917) 264-33-46</abbr>
+            <abbr>+7 (917) 264-33-46</abbr>
         </div>
         
+        <div class="phone-info">
+            <span class="text-info" aria-hidden="true">skype</span>
+            <span>i.v.semin</span>
+        </div>
+
         <div class="row">
             <div class="social-icons">
                 <a href="https://www.facebook.com/profile.php?id=100005554028183" target="_blank">
@@ -32,6 +46,10 @@
                 
                 <a href="https://plus.google.com/106067038892361833656" target="_blank">
                     <div style="background-position: -132px 0, center"></div>
+                </a>
+                
+                <a href="http://stackoverflow.com/users/3705960/igor-semin" target="_blank">
+                    <div style="background-position: -176px 0, center"></div>
                 </a>
             </div>
         </div>
